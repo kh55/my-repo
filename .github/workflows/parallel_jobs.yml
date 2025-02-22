@@ -11,7 +11,7 @@ jobs:
     steps:
       - run: sleep 10 && echo "Second job"
   third:
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     steps:
       - run: sleep 10 && echo "third job"
 
