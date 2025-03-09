@@ -6,7 +6,7 @@ on:
         type: environment
         default: test
         required: false
-        discription: Environment name
+        description: Environment name
 jobs:
   print:
     runs-on: ubuntu-latest
